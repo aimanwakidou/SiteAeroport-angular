@@ -1,0 +1,13 @@
+/* CSS spécial pour la barre de navigation */
+@import "app-navbar.variables.scss";
+
+nav{
+    background-color:$bg-color;
+    color:$color;
+}
+
+.navbar-brand{
+    i{
+        transform:rotate(-45deg);
+    }
+}
